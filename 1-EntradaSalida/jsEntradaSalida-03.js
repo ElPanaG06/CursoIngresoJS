@@ -4,7 +4,7 @@ y luego mostrarlo por 'Alert' al presionar el botón  'mostrar'*/
 function mostrar()
 {
 	//reserva un lugar en la memoria para usarla en el nombre del usuario 
-	let nombre; 
+	var nombre; 
 	//esta funcion sirve para traer un archivo de .html a .js y el .value es para conseguir el valor de la caja de texto de html
 	nombre = document.getElementById("txtIdNombre").value;
 	//alert funciona para mostrar el mensaje en la ventana emergente
