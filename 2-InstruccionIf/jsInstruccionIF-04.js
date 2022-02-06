@@ -2,11 +2,18 @@ function mostrar()
 {
 	var edad;
 	edad = parseInt(document.getElementById("txtIdEdad").value);
-	if (edad >= 13){
-		if(edad <= 17){
+	/* estoy adentro del rago
+	if (edad >= 13 && edad <= 17){
+
 			alert("sos adolecente");
-		}
 		
+		
+	}
+	else {
+		alert("no sos adolecente");
+	}*/
+	if(	!(edad <13 || edad >17)	){
+		alert ("sos adolecente");
 	}
 	
 

@@ -9,7 +9,7 @@ lado2 = prompt("ingrese lado 2");
 lado1 = parseInt(lado1);
 lado2 = parseInt (lado2);
 resultado = lado1 + lado2 * 2; 
-alert ("el triangulo es de " + resultado + "cm" )
+alert ("el triangulo es de " + resultado )
 
 
 
