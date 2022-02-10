@@ -16,7 +16,7 @@ function mostrarAumento()
 	var importefinal;
 	var descuento;
 	importe = parseFloat(document.getElementById("txtIdImporte").value);
-	descuento = parseFloat(prompt("ingrese su descuento"));
+	descuento = parseFloat(prompt("ingrese su descuento").value);
 	importefinal = importe - (importe * descuento / 100);
 	alert("tu importe es " + importe + " tu descuento es " + descuento + " tu importe final es " + importefinal )
 	
